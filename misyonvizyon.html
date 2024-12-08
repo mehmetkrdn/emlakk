@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Misyon ve Vizyon</title>
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+      <!-- Owl Carousel CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.default.min.css">
+  
+      <!-- jQuery ve Owl Carousel JS -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+     
+  </head>
+  
+  <body>
+  
+      <!-- Navbar Dinamik Yükleme -->
+      <div id="navbar"></div>
+  
+      <!-- Header Dinamik Yükleme -->
+      <div id="header"></div>
+  
+      <div class="container">
+          <p></p>
+      </div>
+  
+      <!-- JavaScript ile Navbar ve Header Yükleme -->
+      <script>
+          $(document).ready(function(){
+              // Navbar ve Header'ı AJAX ile yükle
+              $("#navbar").load("navbar.html");
+              $("#header").load("header.html");
+  
+              // Owl Carousel başlatma
+              $(".owl-carousel").owlCarousel({
+                  items: 1,
+                  autoplay: true,
+                  loop: true,
+                  autoplayTimeout: 3000,
+                  autoplayHoverPause: true
+              });
+          });
+      </script>
+  
+  </body>
+</head>
+
+<body>
+
+
+    <!-- Misyon ve Vizyon Başlangıç -->
+    <div class="container py-5">
+        <h1 class="display-5 text-center mb-4">Misyon ve Vizyon</h1>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <h2 class="text-primary">Misyonumuz</h2>
+                <p>Makaan olarak misyonumuz, müşterilerimize en kaliteli emlak hizmetlerini sunmak, güvenilir ve şeffaf bir şekilde her ihtiyaca uygun yaşam alanları sağlamaktır. Emlak sektöründeki yenilikçi yaklaşımımızla, her müşterimize en iyi çözümü sunmayı hedefliyoruz.</p>
+            </div>
+
+            <div class="col-lg-6">
+                <h2 class="text-primary">Vizyonumuz</h2>
+                <p>Vizyonumuz, emlak sektöründe lider konumda olmak, sektöre yön veren yenilikçi çözümler sunmak ve her müşterimizin hayalini gerçeğe dönüştürmektir. Teknolojik gelişmeleri takip ederek, her zaman en iyi hizmeti sunmayı ve müşteri memnuniyetini ön planda tutmayı amaçlıyoruz.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Misyon ve Vizyon Bitiş -->
+
+    <!-- Footer Başlangıç -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <div class="row">
+                <!-- Firma Bilgileri -->
+                <div class="col-md-4 mb-3">
+                    <h5>İletişim</h5>
+                    <p><strong>Firma Adı:</strong>Emlakçınız</p>
+                    <p><strong>Adres:</strong> İstanbul,Büyükçekmece,Fatih Mahallesi</p>
+                    <p><strong>Telefon:</strong> +90 555 123 45 67</p>
+                    <p><strong>E-posta:</strong> info@emlakçınız.com</p>
+                </div>
+
+                <!-- Sosyal Medya Bağlantıları -->
+                <div class="col-md-4 mb-3">
+                    <h5>Sosyal Medya</h5>
+                    <a href="https://www.facebook.com" target="_blank" class="text-white me-3">Facebook</a>
+                    <a href="https://twitter.com" target="_blank" class="text-white me-3">Twitter</a>
+                    <a href="https://www.instagram.com" target="_blank" class="text-white me-3">Instagram</a>
+                    <a href="https://www.linkedin.com" target="_blank" class="text-white me-3">LinkedIn</a>
+                </div>
+
+                <!-- Web Tasarımcıları ve Tanıtım -->
+                <div class="col-md-4 mb-3">
+                    <h5>Tasarım & Geliştirme</h5>
+                    <p>Web tasarım ve geliştirme: <a href="https://www.tasarimciadres.com" target="_blank" class="text-white">www.tasarimciadres.com</a></p>
+                    <p>&copy; 2024 Makaan Emlak. Tüm hakları saklıdır.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Bitiş -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
