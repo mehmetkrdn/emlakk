@@ -1,7 +1,3 @@
-Emlak Web Sitesi Dokümantasyonu
-
-Bu README dosyası, emlak projesindeki HTML dosyalarının yapısını ve amacını belgeliyor. Proje, düzen ve stil için önceden tasarlanmış bir CSS şablonu kullanmaktadır ve HTML dosyaları emlak web sitesinin ihtiyaçlarına uygun şekilde özelleştirilmiştir.
-
 Proje Genel Bakış
 
 Bu proje, emlak detaylarını, ajanları ve diğer ilgili içerikleri sergilemek için çok sayfalı bir emlak web sitesidir. Tasarım, estetik ve kullanılabilirlik için hazır CSS şablonlarını içermektedir.
@@ -10,7 +6,7 @@ HTML Dosyalarının Açıklamaları
 
 1. index.html
 
-Amaç: Web sitesinin ana sayfasıdır ve emlak hizmetlerinin genel bir özetini sunar, diğer bölümlere yönlendirme sağlar.
+Amaç: Web sitesinin ana sayfasıdır ve emlak hizmetlerinin genel bir özetini sunar, diğer bölülere yönlendirme sağlar.
 
 Özellikler:
 
@@ -139,30 +135,4 @@ Amaç: Şablon tasarımı için görsel referans.
 Özellikler:
 
 Düzen ve stil tutarlılığı için bir kılavuz işlevi görür
-
-Özellikler
-
-Tüm sayfalar için tamamen duyarlı tasarım
-
-Şık bir görünüm için hazır CSS şablonu
-
-Kolay güncellemeler için modüler HTML yapısı
-
-İlan ekleme ve geri bildirim gönderme formları
-
-Çalıştırma Talimatları
-
-Projeyi yerel ortamınıza klonlayın.
-
-Web sitesini keşfetmeye başlamak için index.html dosyasını herhangi bir web tarayıcısında açın.
-
-PHP arka plan dosyalarının (ör. send_feedback.php) PHP destekli bir sunucuda barındırıldığından emin olun.
-
-Gelecekteki Geliştirmeler
-
-Emlak detaylarını ve kullanıcı geri bildirimlerini saklamak için bir veritabanıyla entegrasyon
-
-Emlak listesine arama işlevi ekleme
-
-İletişim formunu Google Haritalar entegrasyonu ile geliştirme
 
